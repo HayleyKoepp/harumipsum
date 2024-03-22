@@ -1,0 +1,47 @@
+{
+  "name": "harumipsum",
+  "version": "1.0.0",
+  "description": "Functional TypeScript utility types such as Optional, Result and others.",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./result": {
+      "import": "./dist/result.js",
+      "types": "./dist/result.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HayleyKoepp/harumipsum.git"
+  },
+  "keywords": [
+    "quos",
+    "dolore",
+    "typescript",
+    "voluptatem",
+    "functional-ts",
+    "et",
+    "tempora",
+    "consequatur",
+    "porro",
+    "nostrum",
+    "earum",
+    "consequatur",
+    "beatae"
+  ],
+  "author": "LowellKrajcik",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16.0.0",
+    "npm": ">= 8.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5"
+  }
+}
